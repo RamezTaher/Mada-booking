@@ -1,0 +1,23 @@
+{
+  "choose-direction": "Choose your destination",
+  "arrival-date": "Arrival Date",
+  "exit-date": "Exit date",
+  "name": "The name",
+  "last-name": "Last Name",
+  "first-name": "First Name",
+  "email": "Email",
+  "phone-number": "Phone Number",
+  "niche-market": "target market",
+  "write-your-msg-here": "Type here the message you want to send",
+  "pick-enter-exit-date": "Select the entry and exit date",
+  "promo-code": "promocode",
+  "password": "password",
+  "confirm-password": "confirm password",
+  "new-password": "new password",
+  "confirm-new-password": "Confirm new password",
+  "address": "Title:",
+  "num-tax": "Tax Number",
+  "choose-date": "Choose a date",
+  "enter": "Login",
+  "exit": "Exit"
+}

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.booking-table {
+  @apply w-full border-separate font-bold;
+
+  > thead {
+    @apply bg-[#f7f7f7];
+  }
+  th,
+  td {
+    @apply px-3 py-5 h-12 text-sm text-start align-top text-[#2b2b2b];
+  }
+  td {
+    @apply cursor-pointer;
+  }
+
+  th {
+    @apply bg-white text-xs font-bold text-[#c2a26d];
+  }
+  .address {
+    @apply flex justify-start gap-2 items-center;
+
+    > i {
+      @apply text-[#c2a26d];
+    }
+    &-title {
+      @apply overflow-hidden text-ellipsis  whitespace-nowrap text-sm;
+    }
+  }
+  .actions {
+    @apply flex justify-center items-center gap-2;
+
+    > button {
+      @apply p-1 w-7 h-7;
+      > i {
+        @apply text-lg text-[#fafafa];
+      }
+    }
+  }
+}
+.hotel-shadow{
+  box-shadow: 0px 0px 6px #00000029;
+}
+.choice-btns{
+  border: 2px solid rgb(46 86 116 / var(--tw-bg-opacity));
+  border-radius: 40px;
+  background: #E5E5E5;
+}
+.choice-btn-right{
+  border-radius: 0 40px 40px 0;
+}
+.choice-btn-left{
+  border-radius: 40px 0 0 40px ;
+}
+
+@import "base/normalize";
+@import "base/reset";
+@import "base/typography";
+@import "base/icon";
+@import "components/scrollbar";
+@import "components/buttons";
+@import "components/inputs";
+@import "components/slider";
+@import "components/pagination";
+@import "components/nprogress.scss";
+@import "components/loading-card.scss";
+@import "../public/icons/style.css";
